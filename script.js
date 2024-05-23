@@ -1,5 +1,5 @@
 async function fetchCSV() {
-    const response = await fetch('assets/js/students.csv');
+    const response = await fetch('students.csv');
     const data = await response.text();
     return data;
 }
